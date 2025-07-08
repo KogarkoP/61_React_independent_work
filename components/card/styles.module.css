@@ -1,0 +1,33 @@
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  border: solid 2px transparent;
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+  border-radius: 9px;
+}
+
+.card_wrapper:hover {
+  border: solid 2px #000;
+}
+
+.car_img_wrapper {
+  height: 200px;
+}
+
+.car_img_wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.car_data {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  gap: 0.5rem;
+  width: 100%;
+}
